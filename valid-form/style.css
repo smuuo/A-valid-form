@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT97XUmv3yostMr-el2yh7alYh5diMufHH8Rg&usqp=CAU) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    background: #dedede;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #130f40;
+}
+.login-form{
+    padding: 20px 40px;
+}
+.login-form .font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0px;
+}
+.login-form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+.login-form .font2{
+    margin-top: 30px;
+}
+.login-form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+outline: none;
+cursor: pointer;
+font-weight: bold;
+background: #1a237E;
+border-radius: 50px;
+border: 1px solid #a2a5bb;
+}
+.login-form button:hover{
+background: #151c6a;
+}
+.login-form #email-error,
+#pass-error{
+    margin-top: 5px;
+    width: 345px ;
+    color: #C62828;
+    background: rgba(255, 0, 0, 0.1);
+text-align: center;
+padding: 5px 8px;
+border-radius: 3px;
+border: 1px solid #EF9A9A;
+display: none;
+}
